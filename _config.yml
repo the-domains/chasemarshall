@@ -1,28 +1,40 @@
-name: chasemarshall
-favicon: null
-layout_spectrum: 0.7635047801304609
-typography_spectrum: 0.011681227246299386
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.5448028
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
-  brandStrength: 0.6737806047312915
-  lightness: 0.023836972657591105
-  saturation: 0.9165040259249508
-  rhythmicContrast: 0.5719764705281705
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.9165040259249508
+  brandStrength: 0.6737806047312915
+  lightness: 0.0238369726575911
+  brandColors:
+    - '#0A0815'
+    - '#181410'
+    - '#4D291F'
+    - '#985532'
+    - '#12113B'
+  rhythmicContrast: 0.5719764705281705
+typography_spectrum: 0.01168122724629939
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: chasemarshall
